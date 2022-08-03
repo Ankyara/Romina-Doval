@@ -1,0 +1,29 @@
+.sectionTitle {
+    background-image: url(../../../assets/titles.jpg);
+    background-color: #212529;
+    color: white;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    height: 6rem;
+  }
+
+  .proyectos {
+    background-color: #212529;
+    color: white;
+    padding: 2rem;
+    }
+  
+  .carousel {
+    width: 40rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #titleProyectos {
+    margin-bottom: 1rem;
+  }
+
+  .row .proyectoTexto {
+    text-align: center;
+    padding-top: 1rem;
+  }
