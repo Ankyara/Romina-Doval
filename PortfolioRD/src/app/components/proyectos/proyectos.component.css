@@ -7,6 +7,8 @@
     height: 6rem;
   }
 
+  /* -------------------------------------------------------------------------- */
+
   .proyectos {
     background-color: #212529;
     color: white;
@@ -14,7 +16,7 @@
     }
   
   .carousel {
-    width: 40rem;
+    width: 30rem;
     padding-top: 1rem;
     margin-bottom: 1rem;
   }

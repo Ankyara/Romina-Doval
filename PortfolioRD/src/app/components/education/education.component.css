@@ -1,12 +1,11 @@
 .sectionTitle {
     background-image: url(../../../assets/titles.jpg);
-    background-color: #212529;
     color: white;
     padding: 2rem 0 1rem 0;
     text-align: center;
     height: 6rem;
   }
-
+/* -------------------------------------------------------------------------- */
   .row{
     padding-top: 2rem;
   }
@@ -83,7 +82,9 @@
       border: 2px solid white;
     }
 
-    .logoUBA {
+/* -------------------------------------------------------------------------- */
+    .logo {
         width: 100px;
         margin-bottom: 0.5rem;
     }
+

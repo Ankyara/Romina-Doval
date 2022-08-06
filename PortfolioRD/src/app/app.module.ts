@@ -14,6 +14,8 @@ import { EducationComponent } from './components/education/education.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FooterNavComponent } from './components/footer-nav/footer-nav.component';
+import { LogoCodoComponent } from './components/logo-codo/logo-codo.component';
+import { Education2Component } from './components/education2/education2.component';
 
 
 @NgModule({
@@ -30,6 +32,8 @@ import { FooterNavComponent } from './components/footer-nav/footer-nav.component
     ProyectosComponent,
     FooterComponent,
     FooterNavComponent,
+    LogoCodoComponent,
+    Education2Component,
   ],
   imports: [
     BrowserModule,
