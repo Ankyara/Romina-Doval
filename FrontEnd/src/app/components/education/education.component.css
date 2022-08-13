@@ -10,13 +10,13 @@
     padding-top: 2rem;
   }
   
-  
   #educacion1 {
     padding-left: 40px;
   } 
   
   #educacion2 {
     padding-right: 40px;
+    padding-left: 40px;
   }
     
   .educacion {

@@ -13,15 +13,10 @@
     padding-right: 40px;
   }
 
-  .row {
-    height: 25rem;
-  }
-
  .fotoAbout {
     width: 12rem;
     border-radius: 2.5rem;
-    -webkit-border-radius: 2.5rem;
-    -moz-border-radius: 2.5rem;
-    -ms-border-radius: 2.5rem;
-    -o-border-radius: 2.5rem;
+    box-shadow: 2px 2px 2px grey;
+
+ 
 }
