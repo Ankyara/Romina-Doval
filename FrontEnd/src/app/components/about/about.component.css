@@ -3,6 +3,11 @@
     color: white;
     padding: 50px 0px 50px 0px;
     text-align: center;
+    font-size: larger;
+  }
+
+  h1 {
+    color: #21618C;
   }
   
   .colAbout2, h1 {
@@ -15,8 +20,10 @@
 
  .fotoAbout {
     width: 12rem;
-    border-radius: 2.5rem;
-    box-shadow: 2px 2px 2px grey;
-
- 
+    border-radius: 4.5rem;
+    box-shadow: 2px 2px 2px #21618C ;
+    -webkit-border-radius: 4.5rem;
+    -moz-border-radius: 4.5rem;
+    -ms-border-radius: 4.5rem;
+    -o-border-radius: 4.5rem;
 }

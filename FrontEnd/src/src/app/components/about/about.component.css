@@ -1,0 +1,22 @@
+.about {
+    background-color: #212529;
+    color: white;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+  }
+  
+  .colAbout2, h1 {
+    padding-bottom: 20px;
+  }
+  
+  .colAbout2, p {
+    padding-right: 40px;
+  }
+
+ .fotoAbout {
+    width: 12rem;
+    border-radius: 2.5rem;
+    box-shadow: 2px 2px 2px grey;
+
+ 
+}
