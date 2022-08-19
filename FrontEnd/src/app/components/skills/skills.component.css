@@ -5,7 +5,7 @@
   }
 
   h3 {
-    color: #21618C ;
+    color: #white;
   }
 
   .skills1, .skills2 {
@@ -20,3 +20,21 @@
     text-align: center;
     height: 6rem;
   }
+
+  .progress-bar {
+    color: black;
+  }
+
+  .rojo {
+    background-color: #EC7063;
+  }
+
+  .amarillo {
+    background-color: #FFF9C4 ;  
+  }
+
+  .azul {
+    background-color: #5499C7;
+  }
+
+  

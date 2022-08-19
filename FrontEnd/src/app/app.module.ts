@@ -16,6 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { FooterNavComponent } from './components/footer-nav/footer-nav.component';
 import { LogoCodoComponent } from './components/logo-codo/logo-codo.component';
 import { Education2Component } from './components/education2/education2.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 @NgModule({
@@ -34,6 +35,7 @@ import { Education2Component } from './components/education2/education2.componen
     FooterNavComponent,
     LogoCodoComponent,
     Education2Component,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
