@@ -17,6 +17,7 @@ import { FooterNavComponent } from './components/footer-nav/footer-nav.component
 import { LogoCodoComponent } from './components/logo-codo/logo-codo.component';
 import { Education2Component } from './components/education2/education2.component';
 import { LoginComponent } from './components/login/login.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { LoginComponent } from './components/login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
