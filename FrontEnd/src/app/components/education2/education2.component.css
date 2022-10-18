@@ -1,7 +1,7 @@
 .row {
     padding-top: 1.5rem;
     padding-bottom: 2rem;
-    background-color: #212529;
+    background-color: #b39bae;
 }
 
 #cardCursos {
@@ -9,17 +9,22 @@
     width: 12rem;
     color: white;
     text-align: center;
-    margin: 0.5rem;
 }
 
 .btn {
     margin-top: 1rem;
   }
 
+
+
 img {
     border-radius: 15px;
     padding-top: 1rem;
     width: 120px;  
     align-self: center;
- 
+}
+
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+	transform: translateY(-3%);
 }

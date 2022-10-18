@@ -1,10 +1,16 @@
 .sectionTitle {
-    background-image: url(../../../assets/titles.jpg);
+    background-image: url(../../../assets/nebulosaTittle.jpg);
+    opacity: 0.8;
     color: white;
     padding: 2rem 0 1rem 0;
     text-align: center;
     height: 6rem;
   }
+  .sectionTitle h2:hover{
+    scale: 1.2;
+    text-shadow: #474747 3px 5px 2px;
+  }
+
 /* -------------------------------------------------------------------------- */
   .row{
     padding-top: 2rem;
@@ -37,7 +43,7 @@
     .educacion .ed-item {
       padding: 0 0 20px 20px;
       margin-top: -2px;
-      border-left: 2px solid white;
+      border-left: 2px solid #b39bae;
       position: relative;
     }
   
@@ -47,7 +53,7 @@
       font-weight: 600;
       text-transform: uppercase;
       font-family: "Poppins", sans-serif;
-      color: white;
+      color: #b39bae;
       margin-bottom: 10px;
     }
   
@@ -79,13 +85,13 @@
       border-radius: 50px;
       left: -9px;
       top: 0;
-      background: black;
-      border: 2px solid white;
+      background: #212529;
+      border: 2px solid #b39bae;
     }
 
 /* -------------------------------------------------------------------------- */
     .logo {
         width: 100px;
-        margin-bottom: 0.5rem;
+        margin-bottom: 15px;
     }
 

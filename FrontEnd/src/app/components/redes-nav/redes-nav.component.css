@@ -1,4 +1,9 @@
-.barraNav {
-    padding-top: 15px;
+.fa-solid, .fa-brands{
+    color: #f0f0f0;
+}
+
+.fa-solid:hover, .fa-brands:hover{
+    color: #b39bae;
+    transform: scale(1.3);
 }
 

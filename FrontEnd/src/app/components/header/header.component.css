@@ -1,7 +1,16 @@
 .row {
-    background-color: black;
+    background-color: #454545;
     padding-top: 0.5rem;
-     }
+}
+
+#logo{
+    padding: 10px 20px;
+}
+
+#logosNav{
+    padding-top: 10px;
+}
+
 
 
 

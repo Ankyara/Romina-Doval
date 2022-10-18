@@ -1,6 +1,10 @@
 .banner {
-    background-image: url(../../../assets/bannerx.jpg);
-    height: 25rem;
+    background-image: url(../../../assets/nebulosa.jpg);
+    height: 24rem;
+    opacity: 0.8;
+}
+#nombre:hover{
+    transform: scale(1.2);
 }
 
 
