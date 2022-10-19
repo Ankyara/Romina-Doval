@@ -5,7 +5,9 @@
   }
 
   h3 {
-    color: #white;
+    color: white;
+    text-shadow: 0px 0px 4px #B39BAE;
+    
   }
 
   .skills1, .skills2 {
@@ -16,10 +18,14 @@
     background-image: url(../../../assets/nebulosaTittle.jpg);
     opacity: 0.8;
     background-color: #212529;
-    color: white;
+    color: #d9d9d9;
     padding: 2rem 0 1rem 0;
     text-align: center;
     height: 6rem;
+  }
+
+  .sectionTitle h2{
+    font-weight: bold;
   }
 
   .sectionTitle h2:hover{
@@ -41,6 +47,11 @@
 
   .azul {
     background-color: #5499C7;
+  }
+
+  .lila {
+    background-color: #b39bae;
+    color: #d9d9d9;
   }
 
   

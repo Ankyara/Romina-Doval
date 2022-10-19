@@ -13,8 +13,16 @@
 
 .btn {
     margin-top: 1rem;
+    color: #b39bae;
+    border-color: #b39bae;
   }
 
+  .btn:hover{
+    color: #454545;
+    font-weight: bold;
+    border-color: #454545 ;
+    background-color: #b39bae;
+  }
 
 
 img {
@@ -24,7 +32,11 @@ img {
     align-self: center;
 }
 
+.card{
+    box-shadow: 0px 0px 26px 0px rgba(240,240,240,1);
+}
+
 .card:hover{
-	box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+	
 	transform: translateY(-3%);
 }
