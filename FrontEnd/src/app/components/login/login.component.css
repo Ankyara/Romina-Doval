@@ -1,10 +1,11 @@
-.back{
-    background-image: url(../../../assets/banner.jpg);
-    }
-
 .azul {
-    color: #21618C;
+    color: #b39bae;
 }
 .gris {
     background-color: #ECF0F1  ;
+}
+
+.card{
+    border: 3px solid #b39bae;
+    box-shadow: 0px 0px 15px 13px rgba(179,155,174,1);
 }
