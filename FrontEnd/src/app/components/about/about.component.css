@@ -1,4 +1,4 @@
-.about {
+.about, .aboutTexto{
     background-color: #212529;
     color: #d9d9d9;
     padding: 50px 0px 50px 0px;
@@ -9,26 +9,43 @@
   h1 {
     color: #b39bae;
     font-weight: 800;
-    font-size: 50px;
+    font-size: 60px;
     /* text-shadow: 0px 0px 2px #D9D9D9; */
   }
 
   .colAbout2, h1 {
     padding-bottom: 20px;
   }
+
+  .colAbout2 h1:hover{
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
   
-  .colAbout2, p {
-    padding-right: 40px;
+  .colAbout2 {
+    text-align: center;
+    margin-top: 30px;
   }
 
+
  .fotoAbout {
-    width: 12rem;
+    width: 14rem;
     border-radius: 15px;
     border: 1px solid #d9d9d9;
+    margin-bottom: 55px;
 }
 
 .fotoAbout:hover{
   transform: translateY(-3%);
   box-shadow: 0px 0px 27px 5px #d9d9d9;;
   
+}
+
+.aboutTexto{
+  font-size: 25px;
+  padding: 0 30px;
+  color: #b39bae;
 }
