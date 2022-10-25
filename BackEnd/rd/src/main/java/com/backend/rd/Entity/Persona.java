@@ -1,5 +1,5 @@
 
-package com.portfolio.rd.Entity;
+package com.backend.rd.Entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,9 +13,8 @@ import lombok.Setter;
 @Getter @Setter
 @Entity
 public class Persona {
-    
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue (strategy = GenerationType.IDENTITY)   
     private Long id;
     
     @NotNull
@@ -27,8 +26,7 @@ public class Persona {
     private String apellido;
     
     @Size(min = 1, max = 50, message = "No cumple con la longitud")
-    private String img;  
-              
+    private String img;     
+      
 }
-
 

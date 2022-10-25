@@ -1,17 +1,18 @@
 
-package com.portfolio.rd.Service;
 
-import com.portfolio.rd.Entity.Persona;
-import com.portfolio.rd.Interface.IPersonaService;
-import com.portfolio.rd.Repository.IPersonaRepository;
+package com.backend.rd.Service;
+
+import com.backend.rd.Entity.Persona;
+import com.backend.rd.Interface.IPersonaService;
+import com.backend.rd.Repository.IPersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpPersonaService implements IPersonaService {
-    @Autowired IPersonaRepository ipersonaRepository;
+public class ImpPersonaService implements IPersonaService{
     
+    @Autowired IPersonaRepository ipersonaRepository;
 
     @Override
     public List<Persona> getPersona() {
@@ -19,23 +20,24 @@ public class ImpPersonaService implements IPersonaService {
         return persona;
     }
 
+    
     @Override
     public void savePersona(Persona persona) {
         ipersonaRepository.save(persona);
     }
 
+    
     @Override
     public void deletePersona(Long id) {
         ipersonaRepository.deleteById(id);
         
     }
 
+    
     @Override
     public Persona findPersona(Long id) {
-       Persona persona = ipersonaRepository.findById(id).orElse(null);
-       return persona;
+        Persona persona = ipersonaRepository.findById(id).orElse(null);
+        return persona;
     }
-    
-    
     
 }
