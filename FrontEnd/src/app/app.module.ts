@@ -18,6 +18,7 @@ import { LogoCodoComponent } from './components/logo-codo/logo-codo.component';
 import { Education2Component } from './components/education2/education2.component';
 import { LoginComponent } from './components/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 
 
 
@@ -38,6 +39,7 @@ import { HttpClientModule } from '@angular/common/http';
     LogoCodoComponent,
     Education2Component,
     LoginComponent,
+    HomeComponent,
   ],
 
   imports: [
