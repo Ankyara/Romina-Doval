@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./logo-ap.component.css']
 })
 export class LogoAPComponent implements OnInit {
+  isLogged = false;
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void{}
 
 }
