@@ -20,7 +20,6 @@ import { Education2Component } from './components/education2/education2.componen
 import { LoginComponent } from './components/login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
-import { interceptorProvider } from './service/interceptor-service';
 
 
 
@@ -52,9 +51,7 @@ import { interceptorProvider } from './service/interceptor-service';
    
   ],
 
-  providers: [
-    interceptorProvider
-  ],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
